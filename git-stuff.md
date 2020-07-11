@@ -228,10 +228,6 @@
 
 # Полезные ссылки
 
-[Мануал по созданию rsa ключей - GitLab](https://docs.gitlab.com/ee/ssh/README.html)
-
-[Мануал по созданию rsa ключей - GitHub](https://docs.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
 [Онлайн книга про Git](https://git-scm.com/book/ru/v1)
 
 [Git Branching (interactive game)](http://learngitbranching.js.org/)
