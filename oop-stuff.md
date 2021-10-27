@@ -323,7 +323,7 @@ _Пусть **q(x)** является свойством, верным отно�
 **Cohesion** - это степень того, как методы одной системы (функции, объекта, модуля) сконцентрированы на главной цели
 этой системы. <br>
 
-![](https://raw.githubusercontent.com/skrypnik-dzencode/some-stuffs/master/images/oop/coupling_cohesion.png)
+![](https://raw.githubusercontent.com/skrypnik-dzencode/some-stuffs/oop-draft/images/oop/coupling_cohesion.png)
 
 Рассмотрим более детально
 
