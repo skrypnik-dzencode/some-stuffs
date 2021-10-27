@@ -16,7 +16,7 @@
 
 [вторая часть статьи](https://geektimes.ru/post/149974/)
 
-![](https://github.com/skrypnik-dzencode/some-stuffs/blob/master/images/git/tel-me-about-coding-without-vcs.jpg?raw=true)
+![](https://raw.githubusercontent.com/skrypnik-dzencode/some-stuffs/master/images/git/tel-me-about-coding-without-vcs.jpg)
 
 **Итак, основная проблема - перезаписывание неактуального кода поверх актуального, потеря актуального кода.**
 
