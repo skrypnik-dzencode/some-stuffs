@@ -86,7 +86,7 @@
 
 Первая, простейшая СКВ - это просто **резервное копирование файлов**.
 
-![](https://git-scm.com/book/en/v2/images/local.png)
+![](https://raw.githubusercontent.com/skrypnik-dzencode/some-stuffs/master/images/git/vcs-local.png)
 
 Можно сохранять все в файл, или записывать в БД инфу о файлах и их версиях, но суть не меняется - все хранится **на
 локальном** компьютере.
@@ -94,13 +94,13 @@
 Второй, более продвинутый вариант - **централизованная СКВ**. Суть такого подхода - хранение кода на сервере и
 использование на локальных машинах.
 
-![](https://git-scm.com/book/en/v2/images/centralized.png)
+![](https://raw.githubusercontent.com/skrypnik-dzencode/some-stuffs/master/images/git/vcs-centralized.png)
 
 ![](https://raw.githubusercontent.com/skrypnik-dzencode/some-stuffs/master/images/git/no-vcs-depression-mem.jpg)
 
 На данный момент "последним писком моды" в данном вопросе является **распределенная СКВ**.
 
-![](https://git-scm.com/book/en/v2/images/distributed.png)
+![](https://raw.githubusercontent.com/skrypnik-dzencode/some-stuffs/master/images/git/vcs-distributed.png)
 
 Изменения делаются на локальных машинах, версии же сохраняются и на них, и на сервере.
 
