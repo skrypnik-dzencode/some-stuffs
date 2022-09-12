@@ -1,0 +1,29 @@
+name: CI
+on:
+  push:
+    branches: [ "staging" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: deploy
+    runs-on: ubuntu-latest
+    env:
+      digitalocean: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+      test_tt: 'test_tt1234'
+    steps:
+      - if: ${{ env.digitalocean != '' }}
+        run: echo 'This step will only run if the secret has a value set.'
+      - if: ${{ env.digitalocean == '' }}
+        run: |
+          echo 'This step will only run if the secret does not have a value set.'
+          echo "$digitalocean"
+          echo "$test_tt"
+#    - name: Install doctl
+#      uses: digitalocean/action-doctl@v2
+#      with:
+#        token: ${{ env.digitalocean_access_token }}
+#    - name: init
+#      run: /home/gotham-user/web/stage.gothamsoccer.com/public_html/hello.sh
