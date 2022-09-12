@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     name: deploy
+    environment: staging
     runs-on: ubuntu-latest
     env:
       digitalocean: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
